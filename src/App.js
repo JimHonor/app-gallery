@@ -1,5 +1,11 @@
+import AppList from "./components/AppList";
+
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div id="app">
+      <AppList />
+    </div>
+  );
 }
 
 export default App;
